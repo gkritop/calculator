@@ -1,7 +1,5 @@
 ### Tkinter Calculator Application
 
-- **Project Title:** Simple Calculator Application
-
 - **Technologies Used:**
     - Python: Programming language
     - Tkinter: Python GUI library
@@ -26,7 +24,3 @@
     - Buttons:
         - Numeric, operator, and special buttons
         - Color-coded for easy use
-    
-- **Usage:**
-    - Launching the Application: Run the Python script
-    - Interacting with the Calculator: Use the numeric and operator buttons, press "=" to get the result, and "C" to clear the entry field
