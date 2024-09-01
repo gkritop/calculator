@@ -10,10 +10,8 @@ class Calculator:
         self.equation = StringVar()
         self.entry_value = ""
         
-        # Entry field for showing calculations
         Entry(master, width=16, bg="white", font=("Arial", 24), textvariable=self.equation, bd=0, insertwidth=4, justify='right', fg="black").grid(row=0, column=0, columnspan=4, padx=10, pady=10)
         
-        # Button text and layout configuration
         buttons = [
             ('7', 1, 0), ('8', 1, 1), ('9', 1, 2), ('/', 1, 3),
             ('4', 2, 0), ('5', 2, 1), ('6', 2, 2), ('*', 2, 3),
